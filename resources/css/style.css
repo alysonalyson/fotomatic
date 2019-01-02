@@ -229,12 +229,18 @@ header .mobile {
   padding: 2rem;
   margin: 0px 1.25rem;
   background-color: white;
+  padding: 32px;
 }
 
 .feature .image-container {
   width: 90%;
   height: 65%;
   margin: 0 auto;
+}
+
+.feature .image-container img {
+  max-width: 100%;
+  display: block;
 }
 
 .feature h2 {
